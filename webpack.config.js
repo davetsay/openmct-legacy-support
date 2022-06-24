@@ -3,6 +3,7 @@ const path =  require('path');
 
 // This is main configuration object that tells Webpackw what to do. 
 module.exports = {
+    mode: 'production',
     //path to entry paint
     entry: './src/plugin.js',
     //path and filename of the final output
